@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header-section {
+	position: relative;
+}
+.main-menu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding:20px 0;
+}
+.main-menu ul li {
+	margin: 0 32px;
+}
+.main-menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	color: #4d4959;
+	font-weight: 700;
+}
+
+.intro-section {
+	background: #f7f7f7;
+	padding: 100px 0;
+}
+.intro-section h2 {
+	color: #353738;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.content {
+	display: block;
+	width: 80%;
+	margin: auto;
+}
+.content p {
+	color: #848789;
+	line-height: 2em;
+}
+.red-cycle-hand .bike {
+	min-height: 415px;
+}
+.red-cycle-content p {
+	max-height: 120px;
+	overflow: hidden;
+}
+.small-img::before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 20px solid #fff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	
+}
+.tweet-content p {
+	width: 80%;
+	margin: auto;
+	font-size: 19px;
+	font-style: italic;
+	line-height: 1.6em;
+}
+
+.tweet-icon i {
+	color: #2c98f5;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.tweet-box .dots {
+	
+}
+.tweet-box .dots .dot{
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin: 0 2px;
+}
+.middle-img {
+	width: 100%;
+	height: 100%;
+}
+.sub-form input {
+	width: 300px;
+	padding: 14px;
+	outline: none;
+	
+}
+.sub-form button {
+	outline: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 14px 35px;
+	background: #79caab;
+	color: #fff;
+	border: 1px solid #79caab;
+}
+.footer-section {
+	background: #f1f2f7;
+}
+.address p {
+	margin: 0;
+}
+.creator a {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.social-icons ul li {
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	background: #ffffff87;
+}
+
+
+
+
+
+
+
+
+
+
+
